@@ -1,0 +1,5 @@
+the outall.freqs.gz was downloaded from scg3: /srv/gs1/projects/bustamante/gravel_projects/EM_freq/results/2013-03-12
+
+The restriction to exomes-onle was performed using vcftrimgz:
+ 
+python /Users/gravel/genomes/parsers/vcftrim/vcftrimgz.py /Users/gravel/genomes/1000g/phase1/exomes/targets/calledexomes.bed ./outall.freqs.gz
